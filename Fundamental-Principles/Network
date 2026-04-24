@@ -1,0 +1,21 @@
+# What is Networking
+
+## Goal
+   Intro about the notion of Networking and how it applies in our modern world
+
+## Summary
+   A Networking is two or more systems echanging informations (like devices connected).
+   The Internet is one giant network that consists of many small networks within itself. I was created by Tim Berners-Lee in 1989 as World Wide Web (www.)
+   This small networks are called private networks, and private networks are connected by public networks (aka the Internet).
+   There are 2 ways to identify a device : through it's IP adress and it's MAC adress
+   
+
+## Notions
+   ARPAnet (Advanced Research Projects Agency Network) project is the first network launched in the US by the DARPA (Defense Advanced Research Projects Agency) in 1966 and ended in 1990
+   IP adress, short for Internet Protocol (the name of the device). Each device has 2 IP, one for public networks and one for private networks. Public IP adresses are given by our Internet Service Provider (ISP).
+   MAC adress, short for Media Access Control adress (the fingerprint of the device, similar to a serial number)
+   
+## Ressources
+   https://fr.wikipedia.org/wiki/ARPANET
+   https://www.cisco.com/c/dam/en_us/about/ac79/docs/innov/IoT_IBSG_0411FINAL.pdf
+     About the Next Evolution of the Internet
