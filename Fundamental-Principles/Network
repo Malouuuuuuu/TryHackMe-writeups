@@ -5,15 +5,32 @@
 
 ## Summary
    A Networking is two or more systems echanging informations (like devices connected).
-   The Internet is one giant network that consists of many small networks within itself. I was created by Tim Berners-Lee in 1989 as World Wide Web (www.)
+   The Internet is one giant network that consists of many small networks within itself. I was created by Tim Berners-Lee in 1989 as World Wide Web (www.).
    This small networks are called private networks, and private networks are connected by public networks (aka the Internet).
-   There are 2 ways to identify a device : through it's IP adress and it's MAC adress
-   
+   There are 2 ways to identify a device : through it's IP adress and it's MAC adress.
 
 ## Notions
-   ARPAnet (Advanced Research Projects Agency Network) project is the first network launched in the US by the DARPA (Defense Advanced Research Projects Agency) in 1966 and ended in 1990
-   IP adress, short for Internet Protocol (the name of the device). Each device has 2 IP, one for public networks and one for private networks. Public IP adresses are given by our Internet Service Provider (ISP).
-   MAC adress, short for Media Access Control adress (the fingerprint of the device, similar to a serial number)
+   ARPAnet (Advanced Research Projects Agency Network) project is the first network launched in the US by the DARPA (Defense Advanced Research Projects Agency) in 1966 and ended in 1990.
+   IP adress, short for Internet Protocol (the name of the device). 
+      Each device has 2 IP, one for public networks and one for private networks. 
+      Public IP adresses are given by our Internet Service Provider (ISP), and used to identify the device on the internet.
+      Private adress is used to be identify amongst other devices.
+      IP adresses are devided into tour octets.
+      The number calculated through the technique IP "adressing & subnetting".
+      Can change from device to device.
+      Cannot be active simultaneously on the same network.
+      First version of the Internet Protocol IPv4, using the numbering system 2^32 IP adresses (~ 4.29 billion).
+      Second version of the Internet Protocol IPv6, 2^128 IP adresses (340 trillion-plus) and more efficient.
+         ex : IPv4 : 86.157.52.21
+              IPv6 : 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+      IPv1-3 and 5 stayed experimentals 
+   MAC adress, short for Media Access Control adress (the fingerprint of the device, similar to a serial number).
+      Devices on a network will all have a physical network interface, a microchip board found on the device's motherboard.
+      This interface is assigned a unique adress MAC.
+      Twelve characters hexadecimal (based sixteen). The six first characters represent the company that made the network, six last are unique.
+         ex : a4:c3:f0:85:ac:2d
+   Firewall is a security toll, hardware or software, used to filter unauthorized traffic in the network
+   Ping uses ICMP (Internet Control Message Protocol)
    
 ## Ressources
    https://fr.wikipedia.org/wiki/ARPANET
