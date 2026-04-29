@@ -1,16 +1,17 @@
 # What is Networking
 
+
 ## Goal
    Intro about the notion of Networking and how it applies in our modern world
+
 
 ## Summary
    A Networking is two or more systems echanging informations (like devices connected).
    The Internet is one giant network that consists of many small networks within itself. I was created by Tim Berners-Lee in 1989 as World Wide Web (www.).
    This small networks are called private networks, and private networks are connected by public networks (aka the Internet).
+
    There are 2 ways to identify a device : through it's IP adress and it's MAC adress.
 
-## Notions
-   ARPAnet (Advanced Research Projects Agency Network) project is the first network launched in the US by the DARPA (Defense Advanced Research Projects Agency) in 1966 and ended in 1990.
    IP adress, short for Internet Protocol (the name of the device). 
       Each device has 2 IP, one for public networks and one for private networks. 
       Public IP adresses are given by our Internet Service Provider (ISP), and used to identify the device on the internet.
@@ -24,15 +25,67 @@
          ex : IPv4 : 86.157.52.21
               IPv6 : 2001:0db8:85a3:0000:0000:8a2e:0370:7334
       IPv1-3 and 5 stayed experimentals 
+
    MAC adress, short for Media Access Control adress (the fingerprint of the device, similar to a serial number).
       Devices on a network will all have a physical network interface, a microchip board found on the device's motherboard.
       This interface is assigned a unique adress MAC.
       Twelve characters hexadecimal (based sixteen). The six first characters represent the company that made the network, six last are unique.
          ex : a4:c3:f0:85:ac:2d
+
    Firewall is a security toll, hardware or software, used to filter unauthorized traffic in the network
+
    Ping uses ICMP (Internet Control Message Protocol)
+
+   LAN (Local Area Network) Topologies
+      Star Topology :
+         All devices connected direclty to a switch or a hub. Packets are sent through the switch/hub to be distributed to the destination device.
+         Cost a lot, but reliable and scalable. Tho if the switch/hub fail, the Network will be down.
+      Bus Topology : 
+         All devices connected directly to the backbone cable (one main cable). If the cable breaks, the network fails.
+         All data are sent on both side of the cable (devices before AND devices after in the backbone order) so very easy to slow and bottleneck.
+         Easy and cost-efficient topology
+      Ring / Token Topology :
+         All devices connected in loop. When data is sent, it goes through all the devices until the destinated one.
+         If a device receive a data that is not for him AND have a data to send himself, the device will first sent it's data THEN the one it has to send.
+
+   A switch reunite multiple devices in one cable and transmite data. Un switch connecte un appareil à un réseau (le couloir d'un bâtiment).
+      Utilise les adresses MAC
+      Il retient quel appareil est connecté à quel port
+   A router connects networks and pass data. Un router connecte plusieurs réseaux entre eux (le carrefour qui relie plusieurs bâtiments).
+      Utilise les adresses IP
+      Indispensable pour accéder à Internet ou relier deux LAN.
+
+   Subnetting is deviding a Network into smaller networks (for example for different departments like accounting, finance and HR). It provides Efficiency, Security and Full Control.
+   Subnets use IP addresses in three different ways
+      Network Address : to identify the start of a network
+      Host Address : to identify devices within a network
+      Default Gateway : to identify the device responsible for sending data to another network.  
+      
+
    
 ## Ressources
-   https://fr.wikipedia.org/wiki/ARPANET
+   ARPAnet (Advanced Research Projects Agency Network) project is the first network launched in the US by the DARPA (Defense Advanced Research Projects Agency) in 1966 and ended in 1990.
+      https://fr.wikipedia.org/wiki/ARPANET
    https://www.cisco.com/c/dam/en_us/about/ac79/docs/innov/IoT_IBSG_0411FINAL.pdf
      About the Next Evolution of the Internet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
