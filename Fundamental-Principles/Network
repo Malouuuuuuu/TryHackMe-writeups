@@ -63,10 +63,16 @@
       Default Gateway : to identify the device responsible for sending data to another network.  
 
    ARP (= Address Resolution Protocol) is the technology tasked to found the IP address of a known MAC adress.
-      It'll send a message on the Network asking "Guys, I have this MAC address, who is it ? Can I have it's IP address ? Thanks. Cheers"
-      And it'll receive the answer "Hey, yess it's me, lemme send you my IP address : []. See ya !"
+      ARP Request : It'll send a message on the Network asking "Guys, I have this MAC address, who is it ? Can I have it's IP address ? Thanks. Cheers"
+      ARP Reply : And it'll receive the answer "Hey, yess it's me, lemme send you my IP address : []. See ya !"
       Once the ARP is informed of an identified IP address corresponding to a MAC address, it stores it on its cache.
-      
+
+   DHCP (= Dynamic Host Configuration Protocol) assign automatically an IP address to a device connecting to a network. 
+      DHCP Discover : When a device connecting to a network, sends a request to have an IP address "Hey guys, who can give me an IP please ? Cheers"
+      DHCP Offer : The DHCP answer the call and assign an IP address "Hey dude, here's an IP address, sounds good to you ?"
+      DHCP Request : Device send a confirmation to the DHCP "Looks good to me ! Thanks mate"
+      DHCP ACK : Last reply acknowledging the information "Great ! I take note, cheers !"
+
 
 
 
