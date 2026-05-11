@@ -14,8 +14,14 @@
       1. Physical
     The event of every individual data going through each layers, pieces of information added to the data, is called ENCAPSULATION.
 
-  1. PHYSICAL layer
+  1. PHYSICAL Layer
     Physical components of the hardware : Cables (Ethernet...), connectors...
     Devices use binary to transfer data between them.
 
+  2. DATA LINK Layer
+    In each network-enable device, there's a NIC (= Network Interface Card) holding the MAC address. 
+    The MAC address is "Burned" into the NIC, meaning it can't be changed, if we move the NIC on another device, the MAC address moves with it.
+    The goal to the Data Link layer is to classify those informations to present the datas in a format suitable for transmission.
+
+  3. NETWORK Layer
     
