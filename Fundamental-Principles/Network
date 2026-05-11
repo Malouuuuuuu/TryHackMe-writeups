@@ -31,6 +31,7 @@
       This interface is assigned a unique adress MAC.
       Twelve characters hexadecimal (based sixteen). The six first characters represent the company that made the network, six last are unique.
          ex : a4:c3:f0:85:ac:2d
+      Used as a "physical identifier for a device on a network".
 
    Firewall is a security toll, hardware or software, used to filter unauthorized traffic in the network
 
@@ -60,7 +61,14 @@
       Network Address : to identify the start of a network
       Host Address : to identify devices within a network
       Default Gateway : to identify the device responsible for sending data to another network.  
+
+   ARP (= Address Resolution Protocol) is the technology tasked to found the IP address of a known MAC adress.
+      It'll send a message on the Network asking "Guys, I have this MAC address, who is it ? Can I have it's IP address ? Thanks. Cheers"
+      And it'll receive the answer "Hey, yess it's me, lemme send you my IP address : []. See ya !"
+      Once the ARP is informed of an identified IP address corresponding to a MAC address, it stores it on its cache.
       
+
+
 
    
 ## Ressources
