@@ -1,3 +1,21 @@
 ## GOAL
   To learn the fundamental networking framework that determines the various stages in which data is handled across a network
 
+## SUMMARY
+  OSI (= Open Systems Interconnection model)
+    Model used in networking to provide a framework for any kind of device (different functions and design) as long as the informations follow the uniformity of the model.
+    It has 7 layers, each of them having a different set of responsabilities :
+      7. Application
+      6. Presentation
+      5. Session
+      4. Transport
+      3. Network
+      2. Data link
+      1. Physical
+    The event of every individual data going through each layers, pieces of information added to the data, is called ENCAPSULATION.
+
+  1. PHYSICAL layer
+    Physical components of the hardware : Cables (Ethernet...), connectors...
+    Devices use binary to transfer data between them.
+
+    
