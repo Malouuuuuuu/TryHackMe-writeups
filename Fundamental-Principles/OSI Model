@@ -24,4 +24,10 @@
     The goal to the Data Link layer is to classify those informations to present the datas in a format suitable for transmission.
 
   3. NETWORK Layer
-    
+    The goal of this layer is to define the most optimal path for chunks of data to be sent.
+    It uses protocols such as OSPF (= Open Shortest Path First) and RIP (Routing Information Protocol) based on those factors :
+      - What path is the shortest ? (What path has the least amount of devices that the packet needs to travel across)
+      - What path is the most reliable ? (Have packets been lost on that path before ?)
+      - Which path has the faster physical connection ? (Is one path using copper connection (slower) or a fiber connection (faster) ?)
+
+
