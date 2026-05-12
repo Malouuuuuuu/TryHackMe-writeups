@@ -3,7 +3,8 @@
 
 ## SUMMARY
   OSI (= Open Systems Interconnection model)
-    Model used in networking to provide a framework for any kind of device (different functions and design) as long as the informations follow the uniformity of the model.
+    Model (set of rules ) used in networking to provide a framework for any kind of device (different functions and design) 
+    as long as the informations follow the uniformity of the model.
     It has 7 layers, each of them having a different set of responsabilities :
       7. Application
       6. Presentation
@@ -24,10 +25,30 @@
     The goal to the Data Link layer is to classify those informations to present the datas in a format suitable for transmission.
 
   3. NETWORK Layer
-    The goal of this layer is to define the most optimal path for chunks of data to be sent.
+    The goal of this layer is to define the most optimal path for chunks of data to be sent based on the IP address of each devices.
     It uses protocols such as OSPF (= Open Shortest Path First) and RIP (Routing Information Protocol) based on those factors :
       - What path is the shortest ? (What path has the least amount of devices that the packet needs to travel across)
       - What path is the most reliable ? (Have packets been lost on that path before ?)
       - Which path has the faster physical connection ? (Is one path using copper connection (slower) or a fiber connection (faster) ?)
+    It's kind of a GPS for data informations.
+
+  4. TRANSPORT Layer
+    When data is sent between devices, it follows one of those two protocols, based on several factors :
+      - TCP (= Transmission Control Protocol)
+        Advantages :
+          - Guarantees the accuracy of data,
+          - Can synchronise two devices to prevent each other from being flooded with data,
+          - Error checking.
+        Disadvantages : 
+          - Requires a reliable connection, if one chunk of data is not received, the entire chunk of data in unreadable,
+          - Can slow the connection as it will be reserved on the receiving device the whole time,
+          - Globally slower
+        It's used to share files, internet browsing or sending an email.
+
+      - UDP (= User Datagram Protocol)
+
+
+
+
 
 
