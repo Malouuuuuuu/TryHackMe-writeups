@@ -16,7 +16,7 @@
       Each device has 2 IP, one for public networks and one for private networks. 
       Public IP adresses are given by our Internet Service Provider (ISP), and used to identify the device on the internet.
       Private adress is used to be identify amongst other devices.
-      IP adresses are devided into tour octets.
+      IP adresses are devided into four octets.
       The number calculated through the technique IP "adressing & subnetting".
       Can change from device to device.
       Cannot be active simultaneously on the same network.
