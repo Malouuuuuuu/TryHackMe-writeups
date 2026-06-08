@@ -56,7 +56,7 @@
       Utilise les adresses IP
       Indispensable pour accéder à Internet ou relier deux LAN.
 
-   Subnetting is deviding a Network into smaller networks (for example for different departments like accounting, finance and HR). It provides Efficiency, Security and Full Control.
+   Subnetting is dividing a Network into smaller networks (for example for different departments like accounting, finance and HR). It provides Efficiency, Security and Full Control.
    Subnets use IP addresses in three different ways
       Network Address : to identify the start of a network
       Host Address : to identify devices within a network
