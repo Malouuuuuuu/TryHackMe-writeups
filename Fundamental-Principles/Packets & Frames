@@ -1,1 +1,16 @@
+# What are Packets and Frames
 
+
+## Goal
+    Understand better the notion of Packets and Frames
+
+## Summary
+    Packets are a piece of data from Layer 3 of the OSI Model (Network Layer), containing informations such as IP addresses and payload.
+    Frames are used in Layer 2 of the OSI Model (Data Link), which encapsulates the packet and add information such as MAC addresses.
+
+    It's similar to mailing a letter, the Frame being the envelope and the Packet the letter. 
+    "Once the recepient opens the envelop (Frame), they will know how to forward the letter (Packet) itself."
+
+    Packets have different structures depending of the type of packet sent. 
+    A packet using this protocol will have a set of headers that contain additional pieces of information to the data 
+    that is being sent across a network.
