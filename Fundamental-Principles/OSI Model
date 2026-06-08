@@ -46,7 +46,11 @@
         It's used to share files, internet browsing or sending an email.
 
       - UDP (= User Datagram Protocol)
-
+          Avantages :
+            - Faster than TCP
+          Disadvantages :
+            - Doesn't care if all packets are correctly sent.
+            - If your connection is bad, the data won't sent correctly
 
 
 
