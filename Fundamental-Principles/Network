@@ -47,7 +47,7 @@
          Easy and cost-efficient topology
       Ring / Token Topology :
          All devices connected in loop. When data is sent, it goes through all the devices until the destinated one.
-         If a device receive a data that is not for him AND have a data to send himself, the device will first sent it's data THEN the one it has to send.
+         If a device receive a data that is not for him AND have a data to send himself, the device will first sent its data THEN the one it has to send.
 
    A switch reunite multiple devices in one cable and transmite data. Un switch connecte un appareil à un réseau (le couloir d'un bâtiment).
       Utilise les adresses MAC
